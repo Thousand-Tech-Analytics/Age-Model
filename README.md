@@ -19,7 +19,7 @@ Rather than producing a single final output, the emphasis is placed on iterative
 The baseline experiment applies latent age edits to a pretrained generator without model optimization.  
 The figure below shows the **original input** alongside **younger** and **older** variations generated from the same latent representation.
 
-![Baseline age transformation results](images/baseline_results.png)
+![Baseline age transformation results](images/baseline_results.jpg)
 
 ---
 
@@ -27,7 +27,7 @@ The figure below shows the **original input** alongside **younger** and **older*
 To evaluate efficiency trade-offs, the generator was quantized and the same age manipulation procedure was repeated.  
 Results are compared qualitatively against the baseline to observe changes in texture, smoothness, and age consistency.
 
-![Quantized model results](images/quantized_results.png)
+![Quantized model results](images/quantized_results.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Results are compared qualitatively against the baseline to observe changes in te
 Structured pruning was applied to reduce model capacity while retaining core functionality.  
 The resulting images highlight the impact of parameter removal on facial detail and age-related features.
 
-![Pruned model results](images/pruned_results.png)
+![Pruned model results](images/pruned_results.jpg)
 
 ---
 
